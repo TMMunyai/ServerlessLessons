@@ -17,6 +17,9 @@ exports.handler = async (event) => {
   const startTime = timeInMs()
   await axios.get(url)
 
+
+  
+
   // Example of how to write a single data point
   // await cloudwatch.putMetricData({
   //   MetricData: [
